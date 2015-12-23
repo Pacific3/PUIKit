@@ -15,6 +15,7 @@
 		DFA41BFF1C28BBDB00483D23 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA41BFE1C28BBDB00483D23 /* UIColor.swift */; };
 		DFA41C011C28BD3E00483D23 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA41C001C28BD3E00483D23 /* UIImage.swift */; };
 		DFA41C041C28C9C500483D23 /* PFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA41C031C28C9C500483D23 /* PFoundation.framework */; };
+		DFD414651C2B6830002016AC /* HexColorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD414641C2B6830002016AC /* HexColorConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		DFA41BFE1C28BBDB00483D23 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		DFA41C001C28BD3E00483D23 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		DFA41C031C28C9C500483D23 /* PFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PFoundation.framework; sourceTree = "<group>"; };
+		DFD414641C2B6830002016AC /* HexColorConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				DFA41C021C28C9B300483D23 /* Frameworks */,
 				DF58A9531C28B8FF00526515 /* PUIKit.h */,
+				DFD414631C2B681E002016AC /* Protocols */,
 				DFA41BFD1C28BBCB00483D23 /* Extensions */,
 				DF58A9551C28B8FF00526515 /* Info.plist */,
 				DF58A96A1C28B91A00526515 /* Operations */,
@@ -132,6 +135,14 @@
 				DFA41C031C28C9C500483D23 /* PFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD414631C2B681E002016AC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DFD414641C2B6830002016AC /* HexColorConvertible.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD414651C2B6830002016AC /* HexColorConvertible.swift in Sources */,
 				DF58A96C1C28B93300526515 /* ShowAlertOperation.swift in Sources */,
 				DFA41C011C28BD3E00483D23 /* UIImage.swift in Sources */,
 				DFA41BFF1C28BBDB00483D23 /* UIColor.swift in Sources */,

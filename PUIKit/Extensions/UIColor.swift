@@ -2,8 +2,8 @@
 public typealias Color = UIColor
 
 extension Color {
-    public class func withColorType(colorType: ColorType) -> Color {
-        return Color(hex: colorType.rawValue)
+    public class func fromHexColorConvertible(hexColorConvertible: HexColorConvertible) -> Color {
+        return Color(hex: hexColorConvertible.hexColor())
     }
     
     public convenience init(hex: String) {
@@ -48,8 +48,4 @@ extension Color {
         }
         self.init(red:red, green:green, blue:blue, alpha:alpha)
     }
-}
-
-public enum ColorType: String {
-    case Blue = "#4183D7"
 }
