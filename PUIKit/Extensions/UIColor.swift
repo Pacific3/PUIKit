@@ -2,11 +2,11 @@
 public typealias Color = UIColor
 
 extension Color {
-    public class func fromHexColorConvertible(hexColorConvertible: HexColorConvertible) -> Color {
+    public class func p_fromHexColorConvertible(hexColorConvertible: HexColorConvertible) -> Color {
         return Color(hex: hexColorConvertible.hexColor())
     }
     
-    public convenience init(hex: String) {
+    public convenience init(p_hex hex: String) {
         var red:   CGFloat = 0.0
         var green: CGFloat = 0.0
         var blue:  CGFloat = 0.0

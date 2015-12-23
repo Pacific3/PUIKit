@@ -1,6 +1,6 @@
 
 extension UIApplication {
-    public func setPrimaryColor(
+    public func p_setPrimaryColor(
         primary: Color,
         secondaryColor secondary: Color,
         terciaryColor terciary: Color) {
