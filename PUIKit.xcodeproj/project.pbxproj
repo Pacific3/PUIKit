@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0CAA371C2F582100397E78 /* PFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0CAA361C2F582100397E78 /* PFoundation.framework */; };
 		DF58A9541C28B8FF00526515 /* PUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF58A9531C28B8FF00526515 /* PUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF58A95B1C28B8FF00526515 /* PUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF58A9501C28B8FF00526515 /* PUIKit.framework */; };
 		DF58A9601C28B8FF00526515 /* PUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58A95F1C28B8FF00526515 /* PUIKitTests.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF0CAA361C2F582100397E78 /* PFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PFoundation.framework; path = Carthage/Build/iOS/PFoundation.framework; sourceTree = "<group>"; };
 		DF58A9501C28B8FF00526515 /* PUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF58A9531C28B8FF00526515 /* PUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUIKit.h; sourceTree = "<group>"; };
 		DF58A9551C28B8FF00526515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0CAA371C2F582100397E78 /* PFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +70,7 @@
 		DF58A9461C28B8FF00526515 = {
 			isa = PBXGroup;
 			children = (
+				DF0CAA361C2F582100397E78 /* PFoundation.framework */,
 				DF58A9521C28B8FF00526515 /* PUIKit */,
 				DF58A95E1C28B8FF00526515 /* PUIKitTests */,
 				DF58A9511C28B8FF00526515 /* Products */,
@@ -376,6 +380,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PUIKit",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -399,6 +404,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PUIKit",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
