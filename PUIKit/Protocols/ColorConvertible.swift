@@ -4,7 +4,7 @@ public protocol ColorConvertible: HexColorConvertible {
 }
 
 extension ColorConvertible {
-    func color() -> Color {
+    public func color() -> Color {
         return Color.p_fromHexColorConvertible(self)
     }
 }
