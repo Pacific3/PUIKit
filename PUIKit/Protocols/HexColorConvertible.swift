@@ -1,11 +1,11 @@
 
 public protocol HexColorConvertible: Hashable {
-    func hexColor() -> String
+    var hexColor: String { get set }
 }
 
 extension HexColorConvertible {
     public var hashValue: Int {
-        return hexColor().hashValue
+        return hexColor.hashValue
     }
 }
 

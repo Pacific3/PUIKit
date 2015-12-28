@@ -1,6 +1,11 @@
+
 public typealias Image = UIImage
 
 extension Image {
+    public class func p_fromImageNameConvertible<I: ImageNameConvertible>(imageNameConvertible: I) -> Image? {
+        return Image(named: imageNameConvertible.imageName)
+    }
+    
     public class func p_imageWithColor(color: Color) -> Image {
         let rect = CGRectMake(0, 0, 1, 1)
         UIGraphicsBeginImageContext(rect.size)
