@@ -70,10 +70,10 @@
 		DF58A9461C28B8FF00526515 = {
 			isa = PBXGroup;
 			children = (
-				DF0CAA361C2F582100397E78 /* PFoundation.framework */,
 				DF58A9521C28B8FF00526515 /* PUIKit */,
 				DF58A95E1C28B8FF00526515 /* PUIKitTests */,
 				DF58A9511C28B8FF00526515 /* Products */,
+				DF8A5D7E1C319BA900BB878D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +114,14 @@
 				DFA41BFA1C28BB8A00483D23 /* Observers */,
 			);
 			path = Operations;
+			sourceTree = "<group>";
+		};
+		DF8A5D7E1C319BA900BB878D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF0CAA361C2F582100397E78 /* PFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DFA41BFA1C28BB8A00483D23 /* Observers */ = {
