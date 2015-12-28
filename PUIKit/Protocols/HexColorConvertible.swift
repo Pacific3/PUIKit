@@ -1,6 +1,6 @@
 
 public protocol HexColorConvertible: Hashable {
-    var hexColor: String { get set }
+    var hexColor: String { get }
 }
 
 extension HexColorConvertible {
