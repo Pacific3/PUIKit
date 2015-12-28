@@ -12,6 +12,8 @@
 		DF58A95B1C28B8FF00526515 /* PUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF58A9501C28B8FF00526515 /* PUIKit.framework */; };
 		DF58A9601C28B8FF00526515 /* PUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58A95F1C28B8FF00526515 /* PUIKitTests.swift */; };
 		DF58A96C1C28B93300526515 /* ShowAlertOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58A96B1C28B93300526515 /* ShowAlertOperation.swift */; };
+		DF8A5D801C31A3F100BB878D /* ImageNameConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A5D7F1C31A3F100BB878D /* ImageNameConvertible.swift */; };
+		DF8A5D821C31A54C00BB878D /* ImageConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A5D811C31A54C00BB878D /* ImageConvertible.swift */; };
 		DFA41BFC1C28BBA000483D23 /* NetworkActivityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA41BFB1C28BBA000483D23 /* NetworkActivityObserver.swift */; };
 		DFA41BFF1C28BBDB00483D23 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA41BFE1C28BBDB00483D23 /* UIColor.swift */; };
 		DFA41C011C28BD3E00483D23 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA41C001C28BD3E00483D23 /* UIImage.swift */; };
@@ -39,6 +41,8 @@
 		DF58A95F1C28B8FF00526515 /* PUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUIKitTests.swift; sourceTree = "<group>"; };
 		DF58A9611C28B8FF00526515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF58A96B1C28B93300526515 /* ShowAlertOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAlertOperation.swift; sourceTree = "<group>"; };
+		DF8A5D7F1C31A3F100BB878D /* ImageNameConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageNameConvertible.swift; sourceTree = "<group>"; };
+		DF8A5D811C31A54C00BB878D /* ImageConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConvertible.swift; sourceTree = "<group>"; };
 		DFA41BFB1C28BBA000483D23 /* NetworkActivityObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityObserver.swift; sourceTree = "<group>"; };
 		DFA41BFE1C28BBDB00483D23 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		DFA41C001C28BD3E00483D23 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 			children = (
 				DFD414641C2B6830002016AC /* HexColorConvertible.swift */,
 				DFE1C8D31C2F2BB7009935B1 /* ColorConvertible.swift */,
+				DF8A5D7F1C31A3F100BB878D /* ImageNameConvertible.swift */,
+				DF8A5D811C31A54C00BB878D /* ImageConvertible.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 				DFD414651C2B6830002016AC /* HexColorConvertible.swift in Sources */,
 				DF58A96C1C28B93300526515 /* ShowAlertOperation.swift in Sources */,
 				DFA41C011C28BD3E00483D23 /* UIImage.swift in Sources */,
+				DF8A5D821C31A54C00BB878D /* ImageConvertible.swift in Sources */,
 				DFA41BFF1C28BBDB00483D23 /* UIColor.swift in Sources */,
 				DFA41BFC1C28BBA000483D23 /* NetworkActivityObserver.swift in Sources */,
+				DF8A5D801C31A3F100BB878D /* ImageNameConvertible.swift in Sources */,
 				DFE1C8D41C2F2BB7009935B1 /* ColorConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
