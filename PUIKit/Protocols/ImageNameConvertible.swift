@@ -1,6 +1,6 @@
 
 public protocol ImageNameConvertible: Hashable {
-    var imageName: String { get set }
+    var imageName: String { get }
 }
 
 extension ImageNameConvertible {
