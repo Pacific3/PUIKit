@@ -1,6 +1,7 @@
 
 public protocol ImageNameConvertible: Hashable {
     var imageName: String { get }
+    var bundle: NSBundle { get }
 }
 
 extension ImageNameConvertible {

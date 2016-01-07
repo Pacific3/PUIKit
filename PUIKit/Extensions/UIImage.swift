@@ -3,7 +3,7 @@ public typealias Image = UIImage
 
 extension Image {
     public class func p_fromImageNameConvertible<I: ImageNameConvertible>(imageNameConvertible: I) -> Image? {
-        return Image(named: imageNameConvertible.imageName)
+        return Image(named: imageNameConvertible.imageName, inBundle: imageNameConvertible.bundle, compatibleWithTraitCollection: nil)
     }
     
     public class func p_imageWithColor(color: Color) -> Image {
