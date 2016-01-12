@@ -16,6 +16,12 @@ public struct NetworkActivityObserver: OperationObserver {
     }
     
     public func operation(operation: Operation, didProduceOperation newOperation: NSOperation) { }
+    
+    public func operationDidCancel(operation: Operation) {
+        executeOnMainThread {
+            NetworkIndicatorManager.sharedManager.networkActivityDidEnd()
+        }
+    }
 }
 
 private class NetworkIndicatorManager {
