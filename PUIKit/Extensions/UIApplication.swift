@@ -15,6 +15,12 @@ extension UIApplication {
             UINavigationBar.appearance().titleTextAttributes = [
                 NSForegroundColorAttributeName: secondary
             ]
+            
+            UINavigationBar.appearanceWhenContainedInInstancesOfClasses([UIPopoverPresentationController.self]).barTintColor = secondary
+            UINavigationBar.appearanceWhenContainedInInstancesOfClasses([UIPopoverPresentationController.self]).tintColor = primary
+            UINavigationBar.appearanceWhenContainedInInstancesOfClasses([UIPopoverPresentationController.self]).titleTextAttributes = [
+                NSForegroundColorAttributeName: primary
+            ]
     }
     
     public func p_setPrimaryColor<C: ColorConvertible>(
@@ -27,3 +33,4 @@ extension UIApplication {
             )
     }
 }
+
