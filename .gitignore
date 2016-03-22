@@ -17,5 +17,5 @@ xcuserdata
 *.xcscmblueprint
 .DS_Store
 
-Carthage/Build/
+Carthage/
 *.zip
