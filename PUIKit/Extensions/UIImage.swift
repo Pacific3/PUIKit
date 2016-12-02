@@ -11,13 +11,13 @@ extension Image {
         UIGraphicsBeginImageContext(rect.size)
         let context = UIGraphicsGetCurrentContext()
         
-        CGContextSetFillColorWithColor(context, color.CGColor)
-        CGContextFillRect(context, rect)
+        CGContextSetFillColorWithColor(context!, color.CGColor)
+        CGContextFillRect(context!, rect)
         
         let image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         
-        return image
+        return image!
     }
     
     public class func p_imageWithColor<C: ColorConvertible>(color: C) -> Image {
@@ -30,7 +30,7 @@ extension Image {
         UIGraphicsBeginImageContext(size)
         
         let context = UIGraphicsGetCurrentContext()
-        CGContextSetFillColorWithColor(context, color.CGColor)
+        CGContextSetFillColorWithColor(context!, color.CGColor)
         
         circleBezierPath.fill()
         
@@ -38,7 +38,7 @@ extension Image {
         
         UIGraphicsEndImageContext()
         
-        return bezierImage
+        return bezierImage!
     }
     
     public class func p_roundedImageWithColor<C: ColorConvertible>(color: C, size: CGSize) -> Image {
